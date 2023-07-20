@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-image: url(imagem/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+
+}
+
+/* começo do telefone */
+
+#telefone{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#telefoneimg{
+
+    width: 195px;
+    
+    }
+
+@media screen and (max-width: 650px) {
+  
+  
+        #telefoneimg{
+
+            width: 30vw;
+            
+            }
+  
+  }
+
+  /* fim do telefone */
+.divmenu{
+transform: translate(0,50%);
+position: absolute;
+bottom: 50%;
+right: 10px;
+}
+.divmenu ul li{
+    margin-top: 25px;
+    list-style: none;
+    
+    &:hover img{
+
+        transform: translate(-8px,-8px);
+
+    }
+
+}
+
+#iframetel{
+    
+    position: absolute;
+    height: 73%;
+    width: 84%;
+    top: 13%;
+    left: 8.5%;
+
+}
+.logoimg{
+    transition: transform 300ms;
+    border-radius: 50%;
+    width: 45px;
+    box-shadow: 2px 2px 2px black;
+
+}
