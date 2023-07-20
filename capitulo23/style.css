@@ -9,7 +9,7 @@ body{
     position: relative;
     background-image: url(imagem/fundo-madeira.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
