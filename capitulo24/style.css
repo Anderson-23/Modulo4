@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: auto;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    height:150px;
+    width: 500px;
+   
+}
+#botaonome{
+position: absolute;
+top: 5%;
+left:5%;
+
+}
+#botaosenha{
+position: absolute;
+top: 25%;
+left:5%;
+}
+#botaoidade{
+position: absolute;
+top: 45%;
+left:5%;
+}
+#botaodata{
+position: absolute;
+top: 5%;
+right: 5%;
+}
+#botaocor{
+position: absolute;
+top: 25%;
+right: 5%;
+}
+#isalvar{
+position: absolute;
+bottom: 20%;
+left: 30%;
+}
+#iresetar{
+position: absolute;
+bottom: 20%;
+right: 30%;
+}
