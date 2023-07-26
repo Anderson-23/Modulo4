@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-div{
+div#principal{
     margin: auto;
     background-color: aqua;
     border: 2px solid black;
@@ -14,12 +14,55 @@ div{
     width: 500px;
    
 }
+
 #botaonome{
 position: absolute;
 top: 5%;
 left:5%;
 
 }
+
+i::before{
+
+content: '';
+position: absolute;
+top: 0;
+left: 30%;
+width: 15px;
+height:3px;
+background-color: aqua;
+transform: translateX(-50%);
+transition: 800ms;
+box-shadow: 0px 16px  transparent;
+}
+
+p:hover  i::before{
+
+left:95%;
+box-shadow: 0px 16px  black;
+
+}
+i::after{
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    width: 15px;
+    height:3px;
+    background-color: aqua;
+    transform: translatx(-50%);
+    transition: 800ms;
+    box-shadow: -1px -16px  transparent;
+    }
+    
+    p:hover  i::after{
+    
+    right:67%;
+    box-shadow: 0px -16px  black;
+    
+    }
+
 #botaosenha{
 position: absolute;
 top: 25%;
