@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<h1>Preenchimento de cadastro</h1>
+
+    <form  autocomplete="on" method="post">
+
+        <div>
+            
+            <p id="botaonome">
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required minlength="4" maxength="25" autocomplete="name">
+            
+            </p>
+            <p id="botaosenha">
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required minlength="6" maxlength="25" autocomplete="current-password">
+            </p>
+            <p id="botaoidade">
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade" required minlength="1" maxlength="3" autocomplete="number">
+            </p>
+            <p id="botaodata">
+                <label for="idata">Data:</label>
+                <input type="date" name="data" id="idata" required>
+            </p>
+            <p id="botaocor">
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" required>
+            </p>
+
+
+           <input type="submit" value="SALVAR" id="isalvar" name="salvar">
+           <input type="reset" value="RESETAR" name="resetar" id="iresetar">
+
+       </div>
+
+
+    </form>
+
+
+
+
+</body>
+</html>
