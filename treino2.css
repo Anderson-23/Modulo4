@@ -1,0 +1,50 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}   
+
+body{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+span{
+
+width: 75px;
+height: 300px;
+background-color: #b40101;
+position: relative;
+}
+
+span::before{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 300px;
+    background-color: red;
+    top: 0;
+    left: 70px;
+    transform: rotateZ(0deg) skew(25deg);
+    z-index: 2;
+    box-shadow: 0 0 10px -4px black;
+}
+span::after{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 300px;
+    background-color: #b40101;
+    top: 0;
+    left: 141px;
+
+
+}
