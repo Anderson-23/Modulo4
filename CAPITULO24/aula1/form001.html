@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 01</title>
+
+<style>
+
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+
+display: flex;
+
+}
+
+
+p{
+
+    margin: 15px;
+
+}
+
+
+#salvar{
+
+    color: blue;
+    padding: 10px;
+    width: 200px;
+    height: 35px;
+    margin: 15px;
+}
+
+#form{
+  
+    background-color: aqua;
+    width: 400px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+    
+<h1>Meu primeiro Formulario</h1>
+
+<form id="form" action="cadastro.php">
+
+
+    <p id="par1"><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+
+    <p id="par2"><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+
+
+<input type="submit" value="Salvar" id="salvar">
+</form>
+
+
+
+</body>
+</html>

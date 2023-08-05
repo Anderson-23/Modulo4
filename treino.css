@@ -1,0 +1,39 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height:100vh;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid black;
+    border-radius: 50%;
+    border-top: 20px solid blue;
+    animation: animacao 2s linear infinite reverse;
+
+}
+
+@keyframes animacao {
+
+    0%{
+
+        transform: rotate(1turn);
+     
+    }
+}
+
